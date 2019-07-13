@@ -12,7 +12,7 @@ class Mysql(object):
     @staticmethod
     def __getConn():
         """
-        @summary: 静态方法，从连接池中取出连接
+        @summary: 静态方法 ，从连接池中取出连接
         @return MySQLdb.connection
         """
         if Mysql.__pool is None:
